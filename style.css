@@ -791,132 +791,131 @@ h3 {
     }
 }
 
-
 .soni {
-    height: 27em;
-    width: 27em;
+    height: 27vw;
+    width: 27vw;
     position: relative;
     background:
 
         /* right whiskers -- bottom */
         radial-gradient(ellipse 50% 50%,
             #191818 96%,
-            transparent 100%) right 5.55em top calc(50% + 2.2em) / .53em .53em,
+            transparent 100%) right 5.55vw top calc(50% + 2.2vw) / 0.53vw 0.53vw,
 
         radial-gradient(ellipse 50% 50%,
             #191818 96%,
-            transparent 100%) right 3.92em top calc(50% + 3.8em) / .53em .53em,
+            transparent 100%) right 3.92vw top calc(50% + 3.8vw) / 0.53vw 0.53vw,
 
         linear-gradient(45deg,
             transparent 40%,
             #191818 40%,
             #191818 60%,
-            transparent 60%) right 4em top calc(50% + 3em) / 2em 2em,
+            transparent 60%) right 4vw top calc(50% + 3vw) / 2vw 2vw,
 
         /* right whiskers -- top */
         radial-gradient(ellipse 50% 50%,
             #191818 96%,
-            transparent 100%) right 1.9em top calc(50% + 3.25em) / .7em .7em,
+            transparent 100%) right 1.9vw top calc(50% + 3.25vw) / 0.7vw 0.7vw,
 
         radial-gradient(ellipse 50% 50%,
             #191818 96%,
-            transparent 100%) right 4.4em top calc(50% + .73em) / .7em .7em,
+            transparent 100%) right 4.4vw top calc(50% + 0.73vw) / 0.7vw 0.7vw,
 
         linear-gradient(45deg,
             transparent 42%,
             #191818 42%,
             #191818 58%,
-            transparent 58%) right 2em top calc(50% + 2em) / 3em 3em,
+            transparent 58%) right 2vw top calc(50% + 2vw) / 3vw 3vw,
 
         /* left whiskers -- bottom */
         radial-gradient(ellipse 50% 50%,
             #191818 96%,
-            transparent 100%) left 5.55em top calc(50% + 2.2em) / .53em .53em,
+            transparent 100%) left 5.55vw top calc(50% + 2.2vw) / 0.53vw 0.53vw,
 
         radial-gradient(ellipse 50% 50%,
             #191818 96%,
-            transparent 100%) left 3.92em top calc(50% + 3.8em) / .53em .53em,
+            transparent 100%) left 3.92vw top calc(50% + 3.8vw) / 0.53vw 0.53vw,
 
         linear-gradient(-45deg,
             transparent 40%,
             #191818 40%,
             #191818 60%,
-            transparent 60%) left 4em top calc(50% + 3em) / 2em 2em,
+            transparent 60%) left 4vw top calc(50% + 3vw) / 2vw 2vw,
 
         /* left whiskers -- top */
         radial-gradient(ellipse 50% 50%,
             #191818 96%,
-            transparent 100%) left 1.9em top calc(50% + 3.25em) / .7em .7em,
+            transparent 100%) left 1.9vw top calc(50% + 3.25vw) / 0.7vw 0.7vw,
 
         radial-gradient(ellipse 50% 50%,
             #191818 96%,
-            transparent 100%) left 4.4em top calc(50% + .73em) / .7em .7em,
+            transparent 100%) left 4.4vw top calc(50% + 0.73vw) / 0.7vw 0.7vw,
 
         linear-gradient(-45deg,
             transparent 42%,
             #191818 42%,
             #191818 58%,
-            transparent 58%) left 2em top calc(50% + 2em) / 3em 3em,
+            transparent 58%) left 2vw top calc(50% + 2vw) / 3vw 3vw,
 
         /* mouth */
         radial-gradient(ellipse 50% 50% at 50% 0,
             transparent 60%,
             #191818 65%,
             #191818 96%,
-            transparent 100%) right calc(50% - 1.2em) top calc(50% + 2em) / 3em 3em,
+            transparent 100%) right calc(50% - 1.2vw) top calc(50% + 2vw) / 3vw 3vw,
 
         radial-gradient(ellipse 50% 50% at 50% 0,
             transparent 60%,
             #191818 65%,
             #191818 96%,
-            transparent 100%) left calc(50% - 1.2em) top calc(50% + 2em) / 3em 3em,
+            transparent 100%) left calc(50% - 1.2vw) top calc(50% + 2vw) / 3vw 3vw,
 
         /* nose */
         radial-gradient(ellipse 50% 50%,
             #ebb2af 95%,
-            transparent 100%) 50% 50% / 3em 2em,
+            transparent 100%) 50% 50% / 3vw 2vw,
 
         /* right eye */
         radial-gradient(ellipse 50% 50%,
             #191818 96%,
-            transparent 100%) right 7em top calc(50% - 2em) / 3em 3em,
+            transparent 100%) right 7vw top calc(50% - 2vw) / 3vw 3vw,
 
         /* left eye */
         radial-gradient(ellipse 50% 50%,
             #191818 96%,
-            transparent 100%) left 7em top calc(50% - 2em) / 3em 3em,
+            transparent 100%) left 7vw top calc(50% - 2vw) / 3vw 3vw,
 
         /* orange spot */
         radial-gradient(ellipse 50% 50%,
             #F7A773 99%,
-            transparent 100%) right -5em top 2em / 17em 17em;
+            transparent 100%) right -5vw top 2vw / 17vw 17vw;
 
     background-repeat: no-repeat;
     background-color: #FAF3E5;
     border-radius: 100%;
-    border: .6em solid #F7A773;
+    border: 0.6vw solid #F7A773;
 }
 
 .soni::before,
 .soni::after {
     content: '';
     position: absolute;
-    height: 12em;
-    width: 8em;
-    top: -1.5em;
+    height: 11vw;
+    width: 7vw;
+    top: -1.5vw;
     z-index: -1;
     background-color: #F6C4C1;
     border-radius: 0 100000vmax 0 0;
     box-shadow:
-        0 0 0 .75em #FAF3E5,
-        0 0 0 1.3em #F7A773;
+        0 0 0 0.75vw #FAF3E5,
+        0 0 0 1.3vw #F7A773;
 }
 
 .soni::before {
-    left: 1em;
+    left: 1vw;
 }
 
 .soni::after {
-    right: 1em;
+    right: 1vw;
     transform: scaleX(-1);
 }
